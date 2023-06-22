@@ -1,0 +1,44 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+ 
+  
+}
+
+.nav-home{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: -12%;
+}
+
+.nav {  
+  
+  text-align: center;
+  margin-left: 12.2%;
+  transition: all .3s ease;
+  text-decoration: none;
+  font-size: larger;
+  color: white;
+}
+
+.nav:hover{
+  cursor:  pointer;
+  transition: all .3s ease;
+  border-bottom: 2px solid rgba(128, 0, 255, 0.84);
+}
+
+
+@media screen and (max-width: 800px){
+  .nav{
+  margin-left: 4%;
+  font-size: medium;
+  
+  }
+  
+}

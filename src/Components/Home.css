@@ -1,0 +1,234 @@
+
+
+::-webkit-scrollbar {
+    background-color: #20053f32
+}
+
+::-webkit-scrollbar-track {
+    background-color: #0e05233e;
+}
+
+
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #7a05b4;
+    transition: 1s
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #5a03869b;
+    border-radius: 3px
+}
+
+.home-section{
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.home-section img{
+    height: 350px;
+    width: 290px;
+    border-radius: 2%;
+    box-shadow: 0px 0px 5px white;
+    position: absolute;
+    margin-left: -78%;
+    top: 25%;
+    transition: all .3s ease;
+}
+
+
+
+.home-section img:hover{
+    box-shadow: 0px 0px 8px white;
+    transition: all .3s ease;
+   /*  animation: rotate 1s linear infinite; */
+}
+
+/*
+@keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+      transition: all .3 ease;
+    }
+    
+    100% {
+      transform: rotate(18deg);
+      transition: all .3 ease;
+    }
+  }
+*/
+
+
+.mi-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    text-align: center;
+    width: 100%;
+}
+
+.hi {
+    top: 35%;
+    color: #fff;
+    letter-spacing: 16px;
+    font-size: 25px;
+    font-weight: 100;
+    font-family: Geologica,sans-serif;
+}
+
+
+.secondary-text {
+    color: #fff;
+    top: 60%;
+    font-size: 17px;
+    font-weight: 100;
+    font-family: Geologica,sans-serif;
+    letter-spacing: 17px;
+}
+
+.front-end {
+    color: #fff;
+    font-size: 60px;
+    font-family: sans-serif;
+    font-weight: 100;
+    position: absolute;
+    line-height: 5s0px;
+    display: flex;
+    top: 62%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15.5%;
+
+}
+
+
+.h1-intro {
+    font-size: 110px;
+    color: #a967ff00;
+    -webkit-text-stroke: 1px rgba(255,251,255,.986);
+    -webkit-background-clip: text;
+    background-image: url(../img//home-img//back2-dbbaeece.png);
+    background-position: 0 0;
+    animation: back 30s linear infinite;
+    top: 30%;
+}
+
+
+
+
+
+@keyframes back {
+    to {
+        background-position: 2000px 0
+    }
+}
+
+
+
+
+/** Welcom ---------------------------------------------------  */
+/** Welcom ---------------------------------------------------  */
+
+.welcome-portfolio {
+    color: #fff
+}
+
+.container-welcome {
+    border-radius: 12px;
+    width: 30%;
+    text-align: center;
+    letter-spacing: 10px;
+    position: absolute;
+    top:89.5%;
+    padding: 15px;
+}
+
+
+.container-welcome span {
+    font-size: 45px;
+    font-weight: 50px;
+    color: rgba(12, 0, 0, 0.022);
+    transition: all .3s ease;
+}
+
+.container-welcome>span {
+    animation: glow 2s ease-in-out infinite;
+    transition: all .3s ease;
+    
+}
+
+
+
+@keyframes glow {
+    0%,to {
+        color: #ff00d0;
+        text-shadow: 0 0 12px rgb(179,0,255),0 0 50px rgb(179,0,255),0 0 100px rgb(179,0,255)
+    }
+
+    10%,90% {
+        color: #ff05ff44;
+        text-shadow: none
+    }
+}
+
+
+
+
+.container-welcome>span:nth-child(2) {
+    animation-delay: .25s
+}
+
+.container-welcome>span:nth-child(3) {
+    animation-delay: .5s
+}
+
+.container-welcome>span:nth-child(4) {
+    animation-delay: .75s
+}
+
+.container-welcome>span:nth-child(5) {
+    animation-delay: 1s
+}
+
+.container-welcome>span:nth-child(6) {
+    animation-delay: 1.25s
+}
+
+.container-welcome>span:nth-child(7) {
+    animation-delay: 1.5s
+}
+
+.container-welcome>span:nth-child(8) {
+    animation-delay: 1.75s
+}
+
+.container-welcome>span:nth-child(9) {
+    animation-delay: 2s
+}
+
+.container-welcome>span:nth-child(10) {
+    animation-delay: 2.25s
+}
+/** Welcom ---------------------------------------------------  */
+/** Welcom ---------------------------------------------------  */
+
+@media screen and (max-width: 800px){
+    
+    .h1-intro {
+        font-size: 280%;
+    }
+    .front-end{
+        margin-left: -3%;
+        top: 36%;
+    }
+    
+    .container-welcome{
+        margin-left: -30%;
+        top: 66%;
+    }
+  }
